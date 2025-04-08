@@ -1,0 +1,9 @@
+call inc\inc_disable_sleep.bat com.kobjolke.bkhabits
+call inc\inc_disable_sleep.bat de.kobjolke.bkmedialibrary
+call inc\inc_disable_sleep.bat com.rescuetime.android
+call inc\inc_disable_sleep.bat com.aimp.player
+call inc\inc_disable_sleep.bat com.xabber.android
+call inc\inc_disable_sleep.bat com.github.jamesgay.fitnotes
+call inc\inc_disable_sleep.bat com.resilio.sync
+call inc\inc_disable_sleep.bat com.github.catfriend1.syncthingandroid
+call inc\inc_disable_sleep.bat com.vegardit.grayswitch
