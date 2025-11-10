@@ -31,6 +31,15 @@ Before using these scripts, ensure the following:
 4.  **Apply General Settings:**
     *   Run the `general_android_settings_to_prevent_sleep.bat` script. This applies broader system settings that can help reduce aggressive app closing.
 
+5.  **List Accessibility Services:**
+    *   Run the `get_accessibility_services_apps.bat` script.
+    *   This will generate a file named `accessibility_services_apps.txt` containing all currently enabled accessibility services on your device.
+
+6.  **Add Accessibility Service:**
+    *   To enable an accessibility service for a specific app, run: `add_accessibility_service.bat <package/service_class:com>`
+    *   Example: `add_accessibility_service.bat com.example.myapp/com.example.myapp.MyAccessibilityService:com`
+    *   The script will check if the service is already enabled and add it to the enabled services list if not.
+
 ---
 
 *Disclaimer: Use these scripts at your own risk. Modifying system settings can have unintended consequences.*
