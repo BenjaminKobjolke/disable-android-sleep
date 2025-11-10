@@ -7,3 +7,5 @@ call inc\inc_disable_sleep.bat com.github.jamesgay.fitnotes
 call inc\inc_disable_sleep.bat com.resilio.sync
 call inc\inc_disable_sleep.bat com.github.catfriend1.syncthingandroid
 call inc\inc_disable_sleep.bat com.vegardit.grayswitch
+call inc\inc_disable_sleep.bat de.placetel.phone.android
+call add_accessibility_service.bat com.vegardit.grayswitch/com.vegardit.grayswitch.AccessibilityService:com
